@@ -1,0 +1,125 @@
+/*.col-md-3 img{*/
+ /*width: 100%;*/
+/*}*/
+/*.col-md-4 img{*/
+    /*width: 100%;*/
+/*}*/
+.navbar{
+    margin: 0;
+}
+.navbar-brand, .navbar-nav>li>a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px 19px;
+    border-bottom: 2px solid transparent;
+}
+.navbar-nav li a:hover{
+    color:#49cbcd;
+    border-bottom: solid 2px #49cbcd;
+}
+.navbar-toggle .icon-bar{
+    background-color: black;
+}
+.navbar-toggle{
+    border: solid 1px black;
+}
+.navbar-header a img{
+    padding-left:130px;
+}
+.container-fluid ul{
+    margin-right: 130px;
+}
+.item active,.item img{
+    width: 100%;
+}
+.carousel-control.left, .carousel-control.right{
+    background-image:none;
+}
+.item active, .carousel-caption h1{
+    font-family: 'Open Sans Semibold', sans-serif;
+    text-align: center;
+    padding-bottom:40px;
+    font-size: 63px;
+    text-shadow:none;
+    font-weight:none;
+    }
+.item active, .carousel-caption p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom:65px;
+    font-size: 23px;
+    text-shadow:none;
+}
+.item active, .carousel-caption .learn_more{
+    font-family: 'Open Sans Semibold', sans-serif;
+    text-align: center;
+    margin-bottom:90px;
+    padding: 23px 60px 22px 42px;
+    background: none;
+    border: solid 3px white;
+    border-radius: 5px;
+    font-size: 26px;
+    text-shadow:none;
+}
+.second_block{
+    position: relative;
+}
+.carousel-indicators{
+    position:relative;
+}
+.carousel-control{
+    width:5%;
+}
+.carousel-control .glyphicon-chevron-left{
+     text-shadow:none;
+     background: white;
+     border-radius: 50px;
+     width: 50px;
+     height: 50px;
+     text-align: center;
+     padding-top: 10px;
+
+ }
+.carousel-control .glyphicon-chevron-right{
+    text-shadow:none;
+    background: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.glyphicon-chevron-left:before {
+    content: url("../img/arrow_left.png");
+}
+.glyphicon-chevron-right:before {
+    content: url("../img/arrow_right.png");
+}
+.container marketing{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+.circle_1, .circle_2, .circle_3, .circle_4{
+    position: absolute;
+    background:#eeeef0;
+    padding: 100px;
+    border-radius: 100px;
+    margin-top: 140px;
+}
+.team h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:110px;
+    text-align: center;
+    font-size: 42px;
+}
+.col-lg-3 col-xs-6 h3{
+    position: relative;
+}
+
+
