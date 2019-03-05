@@ -1,9 +1,4 @@
-/*.col-md-3 img{*/
- /*width: 100%;*/
-/*}*/
-/*.col-md-4 img{*/
-    /*width: 100%;*/
-/*}*/
+
 .navbar{
     margin: 0;
 }
@@ -102,24 +97,60 @@
 }
 .container marketing{
     position: absolute;
-    width: 500px;
-    height: 500px;
 }
-.circle_1, .circle_2, .circle_3, .circle_4{
+.col-md-3 img{
+    width: 100%;
+    border-radius:100%;
+}
+.col-md-3 img:before {
     position: absolute;
-    background:#eeeef0;
-    padding: 100px;
-    border-radius: 100px;
-    margin-top: 140px;
 }
 .team h2{
     font-family: 'Open Sans', sans-serif;
     margin-top:110px;
     text-align: center;
     font-size: 42px;
+    margin-bottom:140px;
 }
-.col-lg-3 col-xs-6 h3{
+.name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.position span{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    margin-bottom: 25px;
+}
+.position  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 32px;
+    line-height:2;
+}
+.hover{
     position: relative;
+    overflow: hidden;
 }
-
-
+.hover_color{
+    position: absolute;
+    background-color: #eeeef0;
+    border-radius: 200px;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition:top .3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover:hover .hover_color{
+   top: 0;
+}
+.hover a{
+    color: red;
+    text-decoration: none;
+    font-size: 50px;
+}
